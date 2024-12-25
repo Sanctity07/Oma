@@ -1,0 +1,30 @@
+/* General body styling */
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+/* Make canvas responsive */
+canvas {
+    display: block; /* Removes margin at the bottom */
+    width: 100vw; /* Set width to 100% of viewport width */
+    height: 100vh; /* Set height to 100% of viewport height */
+    object-fit: cover; /* Ensures the canvas scales correctly without distortion */
+}
+
+/* Media Queries for specific screen sizes (optional) */
+@media (max-width: 768px) {
+    canvas {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 480px) {
+    canvas {
+        width: 100vw;
+        height: 100vh;
+    }
+}
